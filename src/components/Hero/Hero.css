@@ -1,0 +1,50 @@
+.Hero{
+    margin-top: 120px;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 240px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    font-size: 30px;
+}
+
+.hero-para strong{
+    background: linear-gradient(0deg, rgba(255,234,93,1) 0%, rgba(208,97,0,1) 100%);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.upload{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background-image: linear-gradient( 109.6deg,  #bb00d4 11.2%, #2026ee 91.1% );
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 30px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.upload:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+
+}

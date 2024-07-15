@@ -1,0 +1,55 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: auto;
+    position: fixed;
+    width: 95vw;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    z-index: 1000; /* Ensure navbar stays on top */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    padding: 20px;
+  
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-connect{
+    padding: 20px 40px;
+    margin-left: 150px;
+    border-radius: 50px;
+    background: black;
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-right: 40px;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
+}
+
+.navlogo{
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px){
+    
+}
