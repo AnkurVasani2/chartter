@@ -41,10 +41,117 @@
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    color: white;
+    font-family: outfit;
+    border: none;
 }
 
 .upload:hover{
     transform: scale(1.05);
     box-shadow: 40px 0 100px #2026ee, -40px 0 100px #bb00d4;
-
 }
+
+.upload-file{
+    text-align: center;
+}
+
+
+h2{
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.upload-file p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.column{
+    margin-top: 50px;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+.column-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.column-item input {
+    margin-right: 10px;
+}
+
+.axis-selection {
+    display: flex;
+    justify-content: left;
+}
+
+.axis-selection div {
+    width: 45%;
+}
+
+.column-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+    justify-content: left;
+    text-align: center;
+    
+}
+
+.column-item input {
+    margin-right: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.graph-type-selection {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+.graph-type-selection label {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+select {
+    font-size: 20px;
+    appearance: none;
+    outline: 01;
+    background: rgb(64,218,118);
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-family: outfit;
+    padding: 5px;
+    display: block;
+}
+
+.generate {
+        margin-top: 20px;
+        padding: 20px 30px;
+        font-size: 30px;
+        color: white;
+        font-family: outfit;
+        border-radius: 50px;
+        border: none;
+        background: linear-gradient(221deg, #40da76 0%, #45ad18 100%);
+    transition: 0.5s;
+}
+
+.generate:hover{
+    transform: scale(1.05);
+    box-shadow: 40px 0 100px #45ad18, -40px 0 100px #40da76;
+    background: linear-gradient(50deg, #40da76 0%, #45ad18 100%);
+}
+

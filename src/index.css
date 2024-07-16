@@ -1,25 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;  
 }
-body{
-  height: 100vh;
+
+body {
+  min-height: 100vh; /* Ensure body covers the viewport height */
   background: #161513;
   color: white;
-  font-family: 'Outfit';
+  font-family: 'Outfit', sans-serif;
   background-image: url('./assets/hero-backgroung.jpg');
   background-size: cover;
   background-attachment: fixed;
+  display: flex; /* Ensure body stretches to full height */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  position: relative; /* Ensure pseudo-element is positioned relative to body */
 }
 
 body::before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100%; /* Cover entire body */
   background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent background */
-  backdrop-filter: blur(2px); /* Blur effect */
-  z-index: 0; /* Ensure it stays behind the content */
+  backdrop-filter: blur(10px); /* Adjust blur effect as needed */
+  z-index: -1; /* Ensure it stays behind the content */
 }
